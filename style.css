@@ -2,14 +2,15 @@
     margin: 0px;
     padding: 0px;
     
+
 }
 
 .nav-container {
     width: 1920px;
     height: 130px;
-    border: 1px solid red;
+    margin: 0px auto;
     display: flex;
-    
+    align-items: center;
 }
 
 
@@ -26,6 +27,7 @@
     width: 86.041px;
     height: 40px;
 }
+
 .logo-text {
     text-align: center;
     font-family: Work Sans;
@@ -41,16 +43,45 @@
 
 
 .nav-item-container {
-    margin-left: 1175px;
-    margin-right: 240px;
-    margin-top: 54px;
-    margin-bottom: 55px;
+    margin: auto;
+    width: 50%;
     display: flex;
-    border: 1px solid red;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+
+
 }
 
-.nav-item-container img {
+.nav-item-container a {
+    text-decoration: none;
+    display: flex;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+
+
+.follow-btn {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.follow-btn img {
     width: 33.916px;
     height: 24px;
+    gap: 24px;
 
 }
