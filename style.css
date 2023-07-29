@@ -1,12 +1,14 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    
+
 
 }
 
+
 .nav-container {
-    width: 1920px;
+    max-width: 1920px;
     height: 130px;
     margin: 0px auto;
     display: flex;
@@ -26,6 +28,8 @@
 .logo-container img {
     width: 86.041px;
     height: 40px;
+    object-fit: cover;
+    
 }
 
 .logo-text {
@@ -79,9 +83,37 @@
     gap: 24px;
 }
 
-.follow-btn img {
+.youtube {
     width: 33.916px;
     height: 24px;
     gap: 24px;
+    object-fit: cover;
+
+}
+
+.tik-tok {
+    width: 24px;
+    height: 24px;
+}
+/* responsive for mobile */
+@media screen and (max-width:1112px) {
+
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container {
+        align-items: center;
+        margin-right: 250px;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+
 
 }
