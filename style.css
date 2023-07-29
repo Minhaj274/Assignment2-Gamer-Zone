@@ -19,6 +19,7 @@
 
 .logo-container {
     margin-left: 240px;
+    margin-right: 240px;
     margin-top: 44px;
     margin-bottom: 46px;
     display: flex;
@@ -228,6 +229,11 @@
 @media screen and (max-width:1112px) {
 
     /* nav */
+    .nav-section{
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
     .nav-container {
       
         height: auto;
@@ -243,10 +249,11 @@
 
     }
 
-    .logo-container {
+    .logo-container {s
         margin: 0px;
         padding: 20px;
         justify-content: center;
+        align-items: center;
     }
 
     .nav-item-container {
@@ -262,7 +269,8 @@
         margin: 0px auto;
         margin-top: 400px;
         flex-direction: column-reverse;
-        border: 1px solid red;
+        align-items: center;
+       
 
     }
 
